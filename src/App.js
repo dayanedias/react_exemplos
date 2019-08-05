@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Cards from './components/theme/cards/cards'
+// import Contador from './components/contador/contador'
+// import Continuando from './components/contador/Continuando';
+// import Biscoito from './components/biscoito/biscoito';
+import Cronometro from './components/cronometro/cronometro';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Cards /> */}
+      {/* <Contador /> */}
+      {/* <Continuando /> */}
+      {/* <Biscoito /> */}
+      <Cronometro />
     </div>
   );
 }
