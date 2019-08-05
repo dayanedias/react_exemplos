@@ -25,10 +25,10 @@ class Cronometro extends Component {
             this.setState({ botao: "Retomar" })
         } else {
             this.timer = setInterval(() => {
-                state.timer += 0.1;
+                state.timer += 0.01;
                 state.botao = "Pausar"
                 this.setState(state)
-            }, 100)
+            }, 10)
 
         }
     }
@@ -48,7 +48,7 @@ class Cronometro extends Component {
         return (
             <div className="container">
                 <img src={require('../../assets/cronometro.png')} className="img" />
-                <a className="timer">{this.state.timer.toFixed(1)}</a>
+                <a className="timer">{this.state.timer.toFixed(2)}</a>
                 <div className="areaBtn">
                     <a className="botao" onClick={this.vai}>{this.state.botao}</a>
                     <a className="botao" onClick={this.limpar}>Limpar</a>
