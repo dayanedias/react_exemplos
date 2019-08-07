@@ -4,7 +4,9 @@ import './App.css';
 // import Contador from './components/contador/contador'
 // import Continuando from './components/contador/Continuando';
 // import Biscoito from './components/biscoito/biscoito';
-import Cronometro from './components/cronometro/cronometro';
+// import Cronometro from './components/cronometro/cronometro';
+// import BuscaCEP from './components/buscacep/buscacep';
+import API from './components/API/api';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       {/* <Contador /> */}
       {/* <Continuando /> */}
       {/* <Biscoito /> */}
-      <Cronometro />
+      {/* <Cronometro /> */}
+      {/* <BuscaCEP /> */}
+      <API />
     </div>
   );
 }
